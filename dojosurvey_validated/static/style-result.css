@@ -1,0 +1,11 @@
+#wrapper {
+    width: 320px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+}

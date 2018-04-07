@@ -1,0 +1,11 @@
+
+wrapper {
+    width:600px;
+    background-color: silver;
+}
+form p label {
+    width: 200px;
+}
+input {
+    width: 200px;
+}

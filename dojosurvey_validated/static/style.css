@@ -1,0 +1,14 @@
+
+
+#wrapper {
+    width: 320px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+form label {
+    display: inline-block;
+    width: 150px;
+}
+input, select {
+    width: 150px;
+}

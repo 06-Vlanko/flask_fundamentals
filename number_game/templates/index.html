@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='style.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="{{ url_for ('static', filename='index.js') }}"></script> -->
+        <title>Game test</title>
+    </head>
+    <body>
+        <wrapper>
+            <h1>Welcome to the Great Number Game</h1>
+            <p>I'm thinking of a number between 1 and 100</p>
+            <p>Take a guess!</p>
+            <div id="result">
+                <p>{{  }}</p>
+            </div>
+            <form action="/submit" id='number-form' method="post">
+                <input type="text" name='number'>
+                <input type="submit" value='Submit' id="send-guess">
+            </form>
+        </wrapper>
+    </body>
+</html>

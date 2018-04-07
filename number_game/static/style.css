@@ -1,0 +1,18 @@
+* {
+    display: block;
+}
+wrapper {
+    width: 400px;
+    padding: 10px;
+    background-color: lightslategray;
+    text-align: center;
+}
+input {
+    margin: 10px auto;
+}
+a {
+    text-decoration: none;
+}
+#play-again {
+    display: none;
+}
